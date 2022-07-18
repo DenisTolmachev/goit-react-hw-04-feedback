@@ -9,6 +9,7 @@ export const StatisticsItem = styled.li`
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: ${({ theme }) => theme.fontSizes.ml};
+  color: ${({ theme }) => theme.colors.primary};
   :nth-last-child(3) {
     border-bottom: 2px solid ${({ theme }) => theme.colors.primary};
   }
@@ -17,7 +18,7 @@ export const StatisticsItem = styled.li`
     font-weight: ${({ theme }) => theme.fontWeights.bold};
   }
   :nth-last-child(1) {
-    color: ${({ theme }) => theme.colors.accent};
+    color: ${({ theme }) => theme.colors.secondary};
     font-size: ${({ theme }) => theme.fontSizes.l};
     font-weight: ${({ theme }) => theme.fontWeights.bold};
   }

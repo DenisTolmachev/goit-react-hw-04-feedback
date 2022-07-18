@@ -6,6 +6,7 @@ export const Button = styled.button`
   font-size: ${props => props.theme.fontSizes.ml};
   text-transform: capitalize;
   background-color: ${props => props.theme.colors.primary};
+  color: ${props => props.theme.colors.white};
   border: none;
   border-radius: 5px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
